@@ -2,7 +2,7 @@
   "id": "lipatos-gm-hidden-npc-hp",
   "title": "LipatoS - Скрытие лечения NPC",
   "description": "Игроки видят всплывающие цифры урона по NPC, но не видят всплывающие цифры восстановления HP. ГМ видит и урон, и лечение. Механика HP не изменяется.",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
@@ -16,5 +16,17 @@
     "main.js"
   ],
   "manifest": "https://raw.githubusercontent.com/Lipatosha/LipatoS-gm-hidden-npc-hp/main/module.json",
-  "download": "https://raw.githubusercontent.com/Lipatosha/LipatoS-gm-hidden-npc-hp/main/lipatos-gm-hidden-npc-hp-v2.0.0.zip"
+  "download": "https://raw.githubusercontent.com/Lipatosha/LipatoS-gm-hidden-npc-hp/main/lipatos-gm-hidden-npc-hp-v2.0.1.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "6.0.0",
+          "verified": "6.0.5"
+        }
+      }
+    ]
+  }
 }
